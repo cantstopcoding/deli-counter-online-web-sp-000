@@ -5,7 +5,9 @@ def line(katz_deli)
   else 
     i = 0
     modified_line = []
-    
-    puts "The line is currently: #{}"
+    katz_deli.each do |name|
+      modified_line << 
+    end
+    puts "The line is currently: modified_line.join(', ')"
   end 
 end 
