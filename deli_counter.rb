@@ -8,6 +8,6 @@ def line(katz_deli)
     katz_deli.each do |name|
       altered_line << "#{katz_deli.index(name) + 1}. #{name}"
     end
-    puts "The line is currently: #{altered_line.join(', ')}"
+    puts "The line is currently: #{altered_line.join(' ')}"
   end 
 end 
