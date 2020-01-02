@@ -6,7 +6,7 @@ def line(katz_deli)
     i = 0
     altered_line_line = []
     katz_deli.each do |name|
-      altered_line << "#{}. #{name}"
+      altered_line << "#{katz_deli.index(name)}. #{name}"
     end
     puts "The line is currently: #{altered_line.join(', ')}"
   end 
