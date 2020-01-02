@@ -6,7 +6,8 @@ def line(katz_deli)
     i = 0
     modified_line = []
     katz_deli.each do |name|
-      
-    end 
+      puts
+    end
+    puts "The line is currently:"
   end 
 end 
