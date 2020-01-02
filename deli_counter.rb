@@ -2,7 +2,7 @@
 def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
-  elif katz_deli.length > 0
+  elsif katz_deli.length > 0
     i = 0
     num_line = []
     katz_deli.each do |name|
