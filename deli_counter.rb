@@ -4,7 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     i = 0
-    altered_line_line = []
+    altered_line = []
     katz_deli.each do |name|
       altered_line << "#{katz_deli.index(name) + 1}. #{name}"
     end
