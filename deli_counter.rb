@@ -4,10 +4,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     i = 0
-    modified_line = []
+    altered_line_line = []
     katz_deli.each do |name|
-      modified_line << 
+      altered_line << "#{}. #{name}"
     end
-    puts "The line is currently: modified_line.join(', ')"
+    puts "The line is currently: #{altered_line.join(', ')}"
   end 
 end 
